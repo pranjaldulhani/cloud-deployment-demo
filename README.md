@@ -1,35 +1,41 @@
 # Cloud Deployment Demo
 
-## Project Overview
-Cloud Deployment Demo is a simple web application developed using HTML and CSS.
-This project demonstrates the basic concepts of cloud computing and web application deployment.
+## 1. Project Overview
 
-## Objectives
-- To understand the basics of cloud computing.
-- To develop a simple web application using HTML and CSS.
-- To learn how to upload project files to GitHub.
-- To understand how to host a website on a cloud platform.
+Cloud Deployment Demo is a beginner-friendly web application
+developed using HTML5 and CSS3.
 
-## Technologies Used
+The project explains the basic benefits of cloud computing
+and demonstrates the steps involved in hosting a web application.
+
+## 2. Objectives
+
+- Understand the basic concepts of cloud computing.
+- Develop a web page using HTML and CSS.
+- Learn GitHub repository management.
+- Understand cloud deployment and website hosting.
+- Learn basic responsive design and accessibility practices.
+
+## 3. Technologies Used
+
 - HTML5
 - CSS3
 - GitHub
-- GitHub Pages
+- GitHub Pages for static website hosting
 
-## Features
+## 4. Features
+
 - Simple and user-friendly interface.
 - Information about cloud computing.
-- Responsive web page design.
-- Online website hosting.
+- Responsive layout for different screen sizes.
+- Separate HTML and CSS files.
+- Basic SEO metadata.
+- Deployment instructions.
 
-## Benefits of Cloud Computing
-1. Scalability
-2. Cost Efficiency
-3. Accessibility
-4. Reliability
+## 5. Project Structure
 
-## Project Structure
 ```text
 cloud-deployment-demo/
 ├── index.html
+├── styles.css
 └── README.md
