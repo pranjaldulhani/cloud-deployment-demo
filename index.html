@@ -3,67 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="A cloud deployment demo web application explaining cloud computing, scalability, accessibility, and reliability.">
+
+    <meta name="author" content="MCA Student">
+
     <title>Cloud Deployment Demo</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: #f0f4ff;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background: #4338ca;
-            color: white;
-            padding: 25px;
-        }
-
-        .container {
-            background: white;
-            margin: 40px auto;
-            padding: 30px;
-            max-width: 600px;
-            border-radius: 12px;
-        }
-
-        h2 {
-            color: #4338ca;
-        }
-
-        footer {
-            background: #1e293b;
-            color: white;
-            padding: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Cloud Deployment Demo</h1>
-        <p>My First Cloud Computing Project</p>
+
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">CloudDemo</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#deployment">Deployment</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero-content" id="home">
+            <p class="tagline">MY CLOUD COMPUTING PROJECT</p>
+
+            <h1>Cloud Deployment Demo</h1>
+
+            <p>
+                Learn how cloud computing makes web applications
+                accessible, scalable, and reliable.
+            </p>
+
+            <a href="#about" class="button">Explore Project</a>
+        </section>
     </header>
 
-    <div class="container">
-        <h2>Welcome to My Web Application!</h2>
+    <main>
 
-        <p>
-            This project demonstrates how a simple web application
-            can be deployed on a cloud platform.
-        </p>
+        <section class="section about" id="about">
+            <h2>About This Project</h2>
 
-        <h3>Benefits of Cloud Computing</h3>
+            <p>
+                Cloud Deployment Demo is a simple web application
+                developed using HTML5 and CSS3. It demonstrates
+                cloud computing concepts and explains how a website
+                can be hosted and accessed through the internet.
+            </p>
+        </section>
 
-        <p>1. Scalability</p>
-        <p>2. Cost Efficiency</p>
-        <p>3. Accessibility</p>
-        <p>4. Reliability</p>
-    </div>
+        <section class="section" id="benefits">
+            <h2>Benefits of Cloud Computing</h2>
 
-    <footer>
-        <p>Created as a Cloud Computing Project</p>
+            <div class="card-container">
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">☁️</div>
+                    <h3>Scalability</h3>
+                    <p>
+                        Cloud resources can be increased or decreased
+                        according to application requirements.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">💰</div>
+                    <h3>Cost Efficiency</h3>
+                    <p>
+                        Cloud services can reduce the need to purchase
+                        and maintain physical infrastructure.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">🌐</div>
+                    <h3>Accessibility</h3>
+                    <p>
+                        Users can access hosted applications through
+                        the internet from supported devices.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icon" aria-hidden="true">🔒</div>
+                    <h3>Security</h3>
+                    <p>
+                        Appropriate access controls and secure
+                        configurations help protect cloud resources.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section deployment" id="deployment">
+            <h2>Cloud Deployment</h2>
+
+            <p>
+                A web application can be published online using a
+                suitable hosting platform. The source code for this
+                project is maintained in a GitHub repository.
+            </p>
+
+            <div class="steps-container">
+
+                <article class="step">
+                    <span class="step-number">01</span>
+                    <h3>Develop</h3>
+                    <p>Create the website using HTML and CSS.</p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">02</span>
+                    <h3>Upload</h3>
+                    <p>Store the project files in a GitHub repository.</p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">03</span>
+                    <h3>Deploy</h3>
+                    <p>Configure a hosting service to publish the website.</p>
+                </article>
+
+                <article class="step">
+                    <span class="step-number">04</span>
+                    <h3>Test</h3>
+                    <p>Open the deployed website and check its functionality.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section project-info">
+            <h2>Project Information</h2>
+
+            <div class="info-box">
+                <p><strong>Project:</strong> Cloud Deployment Demo</p>
+                <p><strong>Technologies:</strong> HTML5 and CSS3</p>
+                <p><strong>Version Control:</strong> GitHub</p>
+                <p><strong>Project Type:</strong> Cloud Computing Demonstration</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Cloud Deployment Demo | Cloud Computing Project</p>
+        <p>Created for educational purposes.</p>
     </footer>
+
 </body>
 </html>
